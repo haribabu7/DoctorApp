@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dp"
+   
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:ems="10"
+        android:fontFamily="Comic Sans MS"
+
+ android:paddingStart="26dp"
+       android:paddingEnd="16dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="16dp"
+     
+     android:gravity="center|left"
+        android:text="Password has been sent to your Email Id"
+        android:textColor="@color/text_color"
+        android:textSize="14.0sp" />
+
+</LinearLayout>

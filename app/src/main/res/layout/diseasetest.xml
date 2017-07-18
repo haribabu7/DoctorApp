@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cordlay"
+
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_marginTop="52.0dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.doctor.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+
+        android:drawablePadding="8.0dp"
+
+        android:textSize="14.0dp"
+        android:paddingStart="10.0dp"
+        android:paddingLeft="10.0dp"
+        android:id="@+id/usernamevalue"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:layout_marginTop="20dp"
+        android:text="Select Previously Diagnised Desease"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"/>
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:numColumns="3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/diseases"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:background="@drawable/edittextfirst"
+        android:drawablePadding="8.0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14.0dp"
+        android:paddingStart="10.0dp"
+        android:paddingLeft="10.0dp"
+        android:id="@+id/diseasename"
+        android:textColor="@color/text_color"
+        android:singleLine="true"
+android:layout_marginTop="10dp"
+        android:hint="Disease Name"
+
+        android:inputType="textEmailAddress" >
+        <requestFocus/>
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+
+        android:drawablePadding="8.0dp"
+
+        android:textSize="14.0dp"
+        android:paddingStart="10.0dp"
+        android:paddingLeft="10.0dp"
+        android:id="@+id/username"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+android:layout_marginTop="20dp"
+       android:text="Is hallucinogenic drug consumed"
+android:textStyle="bold"
+        android:inputType="textEmailAddress"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+   <android.support.v7.widget.AppCompatButton
+       android:layout_width="45dp"
+       android:id="@+id/no"
+       android:layout_marginLeft="14dp"
+       android:text="no"
+       android:background="@color/bluesaffron"
+       android:layout_height="45dp" />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="45dp"
+        android:id="@+id/yes"
+        android:layout_marginLeft="74dp"
+        android:background="@color/bluesaffron"
+android:text="yes"
+        android:layout_height="45dp" /></RelativeLayout>
+
+    <Button
+        android:id="@+id/testresult"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:background="@color/bluesaffron"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

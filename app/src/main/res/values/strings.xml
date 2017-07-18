@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Yoga</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tab_title1">Upload</string>
+    <string name="tab_title2">Create</string>
+    <string name="tab_title3">User</string>
+    <string name="tab_title4">Admin</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string-array name="plans">
+        <item>Select Plan</item>
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>1 year</item>
+    </string-array>
+
+
+    <string-array name="roles">
+        <item>Select Role</item>
+        <item>upload</item>
+
+        <item>Same role as admin</item>
+
+
+    </string-array>
+
+
+    <string-array name="categories">
+        <item>Select Category</item>
+        <item>Mermaid Pose</item>
+        <item>Bound Angle</item>
+        <item>Warrior</item>
+        <item>Dancer Pose</item>
+        <item>Tree Pose</item>
+        <item>BackBend</item>
+        <item>Reclining Leg Pose</item>
+        <item>Standing Forward Blend</item>
+        <item>Inverted</item>
+        <item>Head to Knee</item>
+        <item>Half Moon Balance</item>
+        <item>Eagle Pose</item>
+        <item>Childs Pose</item>
+        <item>Sitting Forward Blend</item>
+        <item>T-Pose</item>
+
+    </string-array>
+
+
+</resources>
